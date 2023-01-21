@@ -11,12 +11,20 @@ modvis is a tool that allows users to easily access and analyze data on the late
 The technology stack used for this project includes the following:
 
 - Python 3.9.9
-- Flask 1.
-- Flask-SQLAlchemy for ORM
+
+- Flask 2.0.1
+
+- Flask-SQLAlchemy 2.5.1 for ORM
+
+- SQLALchemy 1.4.17
+
 - HTTP requests library for API calls with apikey
+
 - PostgreSQL
-- Alembic
-- psycopg2
+
+- Alembic 1.6.5
+
+- psycopg2 2.9.1
 
 The backend architecture for this project is based on a standard Flask app structure. The main file, app.py, initializes the Flask app and sets up the routes for the API endpoints. The models for the database are defined in a separate models.py file using Flask-SQLAlchemy. The database connection is established in the config.py file. The insert_new_mods() function, which calls the external API and inserts the data into the database, is located in the utils.py file.
 The APIs endpoints used in this project are shown in the table below.
