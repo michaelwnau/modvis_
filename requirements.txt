@@ -1,6 +1,6 @@
 alembic==1.6.5
 Faker==8.5.1
-Flask==2.0.1
+Flask==2.3.2
 Flask-Migrate==3.0.1
 Flask-SQLAlchemy==2.5.1
 Flask-Marshmallow==0.14.0
